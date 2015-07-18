@@ -1,4 +1,4 @@
-#nodeapi chinese version  
+#nodeapi v0.12.7中文版  
 本文根据NodeJS官网[DOCS](https://nodejs.org/documentation/)翻译。  
 主要目的一是练习计算机翻译，二是熟悉NodeJS的具体API.
 
