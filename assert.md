@@ -1,37 +1,37 @@
 # 目录
-+ [Assert](#1)
++ [Assert](./assert.md#1)
  - [assert.fail(actual,expected,message,operator)](./assert.md#2)
- - [assert(value[,message]),assert.ok(value[,message])]
- - [assert.equal(actual,expected[,message])]
- - [assert.notEqual(actual,expected(,message))]
- - [assert.deepEqual(actual,expected[,message])]
- - [assert.notDeepEqual(actual,expected[,message])]
- - [assert.strictEqual(actual,expected[,message])
- - [assert.notStrictEqual(actual,expected[,message])]
- - [assert.throws(block[,errot][,message])]
- - [assert.doesNotThrow(block[,message])]
- - [assert.ifError(value)]
+ - [assert(value[,message]),assert.ok(value[,message])](./assert.md#3)
+ - [assert.equal(actual,expected[,message])](./assert.md#4)
+ - [assert.notEqual(actual,expected(,message))](./assert.md#5)
+ - [assert.deepEqual(actual,expected[,message])](./assert.md#6)
+ - [assert.notDeepEqual(actual,expected[,message])](./assert.md#7)
+ - [assert.strictEqual(actual,expected[,message])](./assert.md#8)
+ - [assert.notStrictEqual(actual,expected[,message])](./assert.md#9)
+ - [assert.throws(block[,errot][,message])](./assert.md#10)
+ - [assert.doesNotThrow(block[,message])](./assert.md#11)
+ - [assert.ifError(value)](./assert.md#12)
 
-# Assert
+# <a name="1"> Assert
     稳定性：5 - 锁定状态
 该模块用于单元测试，可以通过require('assert')引入
-## <a name="2">asser.fail(actual,expected,message,operator)
+## <a name="2"> asser.fail(actual,expected,message,operator)
 抛出一个异常，用提供的operator来分开真实值和期望值
-##assert(value[,message]),assert.ok(value[,message])
+## <a name="3"> assert(value[,message]),assert.ok(value[,message])
 测试值是否为真，和assert.equal(true, !!value, message)等效
-## assert.equal(actual,expected[,message])
+## <a name="4"> assert.equal(actual,expected[,message])
 测试是否相等，和==比较操作符一样
-## assert.notEqual(actual,expected[,message])
+## <a name="5"> assert.notEqual(actual,expected[,message])
 测试是否不等，和!=比较操作符一样
-## assert.deepEqual(actual,expected[,message])
+## <a name="6"> assert.deepEqual(actual,expected[,message])
 测试是否全等
-## assert.notDeepEqual(actual,expected[,message])
+## <a name="7"> assert.notDeepEqual(actual,expected[,message])
 测试是否不全等
-## assert.strictEqual(actual,expected[,message])
+## <a name="8"> assert.strictEqual(actual,expected[,message])
 测试是否严格相等，和===比较操作符一样
-## assert.notStrictEqual(actual,expected[,message])
+## <a name="9"> assert.notStrictEqual(actual,expected[,message])
 测试不严格相等，和!==比较操作符一样
-## assert.throws(block[,error][,message])
+## <a name="10"> assert.throws(block[,error][,message])
 期待block抛出一个错误，错误可以是构造器，正则表达式或者验证函数
 
 使用构造器验证：
@@ -66,7 +66,7 @@
             "unexpected error";
         );
 
-## asset.doesNotThrow(block[,message])
+## <a name="11"> asset.doesNotThrow(block[,message])
 期望代码块不抛出错误，详见assert.throws
-## assert.ifError(value)
+## <a name="12"> assert.ifError(value)
 测试值是否不是一个假值，如果是真值则抛出错误，在测试回调函数第一个参数error时非常有用
