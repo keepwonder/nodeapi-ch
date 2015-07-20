@@ -11,4 +11,4 @@
  - console.asser(value[,message][,...])
 
 # console
-    稳定性：3 - API冻结状态
+    稳定性：4 - API冻结状态
