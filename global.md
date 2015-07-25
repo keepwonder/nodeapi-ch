@@ -26,7 +26,7 @@
 
 ## <a name="3">process
  + {Object}  
-process对象，参考[process objec](#)板块
+process对象，参考[process object](#)板块
 
 ## <a name="4">console
  + {Object}  
