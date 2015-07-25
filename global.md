@@ -28,14 +28,14 @@
  + {Object}  
 process对象，参考[process objec](#)板块
 
-## console
+## <a name="4">console
  + {Object}  
 用于打印到标准输出和标准错误输出，参考[console](../console.md)模块
 
-## Class:Buffer
+## <a name="5">Class:Buffer
  + {Function}  
 用于处理二进制数据，参考[buffer](#)模块
 
-## require()
+## <a name="6">require()
  + {Function}  
 用于加载模块，参考[Modules]模块。
